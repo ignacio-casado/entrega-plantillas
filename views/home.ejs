@@ -1,0 +1,7 @@
+<%- include('./partials/head.ejs') %>
+<h1>hello world</h1>
+<ul>
+ <% productos.forEach(element => { %>
+  <li><%=element.tittle%></li>
+<% }) %>
+</ul>
